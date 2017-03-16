@@ -1,0 +1,47 @@
+<?php
+function operation($val1,$val2,$op) {
+		switch ($op) {
+			case "addition" :
+				addition($val1,$val2);
+				break;
+				
+			case "soustraction" :
+				soustraction($val1,$val2);
+				break;
+				
+			case "multiplication" :
+				multiplication($val1,$val2);
+				break;
+				
+			case "division" :
+				division($val1,$val2);
+				break;
+				
+		}
+}
+
+function addition ($val1,$val2){
+	echo "Le résulat de ",$val1,"+",$val2," est égal à ",$val1+$val2;
+	echo "<br>";
+}
+
+function soustraction ($val1,$val2){
+	echo "Le résulat de ",$val1,"-",$val2," est égal à ",$val1-$val2;
+	echo "<br>";
+}
+
+function multiplication ($val1,$val2){
+	echo "Le résulat de ",$val1,"*",$val2," est égal à ",$val1*$val2;
+	echo "<br>";
+}
+
+function division ($val1,$val2){
+	echo "Le résulat de ",$val1,"/",$val2," est égal à ",$val1/$val2;
+	echo "<br>";
+}
+
+operation(5,3,"addition");
+operation(5,3,"soustraction");
+operation(5,3,"multiplication");
+operation(5,3,"division");
+?>
