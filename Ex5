@@ -10,4 +10,17 @@ function fact($x){
 	echo $z;	
 }
 echo fact(15);
+echo "<br>";
+
+
+
+function factR($nbr) 
+{ 
+   if($nbr === 0)
+      return 1;  
+  else 
+      return $nbr*factR($nbr-1); 
+}  
+
+echo factR(15);
 ?>
