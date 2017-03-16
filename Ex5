@@ -1,0 +1,13 @@
+<?php
+function fact($x){
+	$z=1;
+	for ($i = 2; $i <= $x; $i++){
+		echo $z;
+		echo "<br>";
+		$z=$i*$z;
+		
+	}
+	echo $z;	
+}
+echo fact(15);
+?>
