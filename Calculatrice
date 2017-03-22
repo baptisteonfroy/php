@@ -1,0 +1,34 @@
+ <html>
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+   
+	
+	
+	<form method="post" action="<?php $_SERVER['PHP_SELF']?>">
+        <fieldset style="vertical-align: middle;"><legend>Calculatrice  :</legend>
+            <input type="Submit" name="ce" id="ce" value="CE">
+            <input type="Submit" name="eff" id="eff" value="<-">
+            <input type="Submit" name="dol" id="dol" value="%">
+            <input type="Submit" name="plus" id="plus" value="+"><br>
+                <input type="Submit" name="sept" id="sept" value="7">
+                <input type="Submit" name="huit" id="huit" value="8">
+                <input type="Submit" name="neuf" id="neuf" value="9">
+                <input type="Submit" name="moins" id="moins" value="-"><br>
+                    <input type="Submit" name="quatre" id="quatre" value="4">
+                    <input type="Submit" name="cinq" id="cinq" value="5">
+                    <input type="Submit" name="six" id="six" value="6">
+                    <input type="Submit" name="fois" id="fois" value="x"><br>
+                        <input type="Submit" name="un" id="un" value="1">
+                        <input type="Submit" name="deux" id="deux" value="2">
+                        <input type="Submit" name="trois" id="trois" value="3">
+                        <input type="Submit" name="div" id="div" value=""><br>
+                            <input type="Submit" name="ce" id="ce" value="CE">
+                            <input type="Submit" name="ce" id="ce" value="CE">
+                            <input type="Submit" name="ce" id="ce" value="CE">
+                            <input type="Submit" name="ce" id="ce" value="CE"><br>
+        </fieldset>
+    </form>
+
+</html>
